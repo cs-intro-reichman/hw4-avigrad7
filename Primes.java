@@ -46,6 +46,7 @@ public class Primes {
         }
 
         //Printing
+        System.out.println("Prime numbers up to " + topNumber + ":");
         int howMany = 0;
         for (int i = 0; i <  allValues.length; i++) {
             if(allValues[i]) {
